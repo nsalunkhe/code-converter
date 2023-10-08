@@ -1,0 +1,90 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444654;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .input-section,
+  .output-section {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Change background color */
+  }
+  
+  .input-section h2,
+  .output-section h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  textarea {
+    width: calc(100% - 20px);
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    color:white;
+    background-color: #333; /* Change background color */
+  }
+  
+  select {
+    width: calc(30% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e8e8e8; /* Change background color */
+    color: #333; /* Change text color */
+    margin-right: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .one{
+    display: flex;
+  }
+  h2{
+    text-align: center;
+  }
+  .nav{
+    width:80%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    background-color: #333;
+    margin: auto;
+  }
+  .nav button{
+    height:40%;
+    width: 10%;
+    margin-top: 20px;
+  }
